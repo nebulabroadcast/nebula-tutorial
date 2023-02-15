@@ -155,4 +155,4 @@ See [Nebula 5 documentation](https://nebulabroadcast.com/doc/nebula/) for more i
 Configuration
 -------------
 
-Coming soon...
+ - [CasparCG integration](https://github.com/nebulabroadcast/nebula-tutorial/blob/main/doc/casparcg.md)
