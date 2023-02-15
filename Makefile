@@ -32,3 +32,6 @@ update:
 
 user:
 	@$(COMPOSE) exec $(SERVER_CONTAINER) python -m cli user
+
+password:
+	@$(COMPOSE) exec $(SERVER_CONTAINER) python -m cli password
