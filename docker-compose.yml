@@ -20,7 +20,7 @@ services:
     restart: unless-stopped
 
   backend:
-    image: nebulabroadcast/nebula-server
+    image: nebulabroadcast/nebula-server:latest
     ports:
       - "4455:80"
     volumes:
@@ -33,7 +33,7 @@ services:
       - postgres
 
   worker:
-    image: nebulabroadcast/nebula-worker
+    image: nebulabroadcast/nebula-worker:latest
     hostname: worker
     volumes:
       - "./storage:/mnt/nebula_01"
