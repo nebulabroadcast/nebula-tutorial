@@ -1,6 +1,6 @@
 COMPOSE=$(shell which docker-compose || echo "docker compose")
-SERVER_IMAGE=nebulabroadcast/nebula-server
-WORKER_IMAGE=nebulabroadcast/nebula-worker
+SERVER_IMAGE=nebulabroadcast/nebula-server:latest
+WORKER_IMAGE=nebulabroadcast/nebula-worker:latest
 SERVER_CONTAINER=backend
 WORKER_CONTAINER=worker
 
