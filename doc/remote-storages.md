@@ -48,9 +48,9 @@ Define a remote storage in Nebula
 
 In the settings directory of the Nebula repository, create a storages.py file with the following contents:
 
+```python
 from nebula.settings.models import StorageSettings
 
-```python
 STORAGES = [
     StorageSettings(
         id=1,
