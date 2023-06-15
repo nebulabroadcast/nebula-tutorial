@@ -60,7 +60,7 @@ Clone this repository
 Clone a Git repository:
   
 ```bash
-git clone https://github.com/nebulabroadcast/nebula-example
+git clone https://github.com/nebulabroadcast/nebula-tutorial
 ```
 
 Test run
