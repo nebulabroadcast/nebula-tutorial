@@ -4,8 +4,6 @@ Nebula Tutorial
 In this tutorial, we will guide you through the process of setting up Nebula 6 on your machine, step by step. 
 By the end of this tutorial, you will have a fully functional Nebula instance up and running.
 
-Keep in mind that Nebula 6 is still in beta, and it lacks some features that will be available in the final release.
-
 Note: This tutorial is designed for Debian-based Linux distributions such as Ubuntu, 
 and has been tested on Ubuntu. If you're using a different distribution, 
 the steps may be slightly different. 
