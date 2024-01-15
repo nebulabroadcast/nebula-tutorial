@@ -66,7 +66,7 @@ PLAY2 = "<settings><id_channel>2</id_channel></settings>"
 
 SERVICES = [
    # ...
-   ServiceSettings(id=11, type="play", name="play2", host="worker", settings=PLAY1),  
+   ServiceSettings(id=11, type="play", name="play1", host="worker", settings=PLAY1),  
    ServiceSettings(id=12, type="play", name="play2", host="worker", settings=PLAY2),
    # ...
 ]
