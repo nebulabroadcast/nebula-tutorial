@@ -7,8 +7,7 @@ By the end of this tutorial, you will have a fully functional Nebula instance up
 > [!NOTE]
 > This tutorial is designed for Debian-based Linux distributions such as Ubuntu, 
 > and has been tested on Ubuntu. If you're using a different distribution, 
-> the steps may be slightly different. But don't worry, the basic idea remains the same
-
+> the steps may be slightly different. But don't worry, the basic idea remains the same.
 
 What's included
 ---------------
@@ -57,7 +56,7 @@ Clone this repository
 Clone a Git repository:
   
 ```bash
-git clone https://github.com/nebulabroadcast/nebula-example
+git clone https://github.com/nebulabroadcast/nebula-tutorial
 ```
 
 Test run
