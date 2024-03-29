@@ -15,7 +15,7 @@
         <param name="preset:v">"fast"</param>
         <param name="g">1</param>
 
-        <param name="c:a">"libfdk_aac"</param>
+        <param name="c:a">"aac"</param>
         <param name="b:a">"128k"</param>
         <param name="ar">48000</param>
 

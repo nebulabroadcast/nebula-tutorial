@@ -4,14 +4,10 @@ Nebula Tutorial
 In this tutorial, we will guide you through the process of setting up Nebula 6 on your machine, step by step. 
 By the end of this tutorial, you will have a fully functional Nebula instance up and running.
 
-Keep in mind that Nebula 6 is still in beta, and it lacks some features that will be available in the final release.
-
-Note: This tutorial is designed for Debian-based Linux distributions such as Ubuntu, 
-and has been tested on Ubuntu. If you're using a different distribution, 
-the steps may be slightly different. 
-
-But don't worry, the basic idea should be the same and you should be able to figure it out.
-
+> [!NOTE]
+> This tutorial is designed for Debian-based Linux distributions such as Ubuntu, 
+> and has been tested on Ubuntu. If you're using a different distribution, 
+> the steps may be slightly different. But don't worry, the basic idea remains the same.
 
 What's included
 ---------------
@@ -81,8 +77,11 @@ Default login credentials are:
  - Password: nebula
 
 If you see the Nebula web interface, you're good to go! 
-It is now a good idea to stop the services by pressing Ctrl+C in the terminal window and setup 
-everything properly. But it is okay to continue with the default settings for now.
+
+> [!TIP]
+> Now it is a good time to stop the services by pressing Ctrl+C in the terminal window 
+> and setup your configuraiton properly. But it is okay to continue with the default 
+> settings for now.
 
 To learn more about configuration, scroll down to the "Configuration" section.
 
@@ -151,6 +150,10 @@ In the **Editor** page, you can edit the metadata of the selected asset or creat
 
 Linear playout scheduling and control is available only using Firefly application.
 See [Nebula 5 documentation](https://nebulabroadcast.com/doc/nebula/) for more information.
+
+> [!NOTE]
+> Conti is not intended for production use. It is a simple playout server for testing
+> and learning purposes. It is not suitable for 24/7 operation and its features are limited.
 
 Configuration
 -------------
