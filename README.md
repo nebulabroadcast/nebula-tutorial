@@ -65,7 +65,7 @@ Test run
 Now you can dry-test the setup by running the following command:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 This will download all the required Docker images, setup the database and start the Nebula services.
